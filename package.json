@@ -1,8 +1,8 @@
 {
   "name": "presentation-indicators",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The Augmented.js Next - Presentation Indicators Module.",
-  "main": "dist/presentation-maps.js",
+  "main": "dist/presentation-indicators.js",
   "scripts": {
     "dev": "webpack --mode development --progress",
     "build": "webpack --mode production --progress",
