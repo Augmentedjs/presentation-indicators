@@ -1,6 +1,6 @@
 {
   "name": "presentation-indicators",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "The Augmented.js Next - Presentation Indicators Module.",
   "main": "dist/presentation-indicators.js",
   "scripts": {

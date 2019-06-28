@@ -28,7 +28,7 @@ class ProgressIndicator extends View {
     } else {
       this._mode = INDICATOR_MODE_DEFAULT;
     }
-    this.template = `<div class="${this._mode}"></div>`;
+    this.template = `<div class=""></div>`;
   };
 
   async render() {
@@ -44,6 +44,10 @@ class ProgressIndicator extends View {
    */
   setInProgress() {
     Dom.addClass(this.el, INPROGRESS_STYLE);
+    const el = Dom.selector(this.el);
+    if (el) {
+      Dom.addClass(el.childNodes[0], this._mode);
+    }
   };
 
   /**
@@ -65,6 +69,10 @@ class ProgressIndicator extends View {
    */
   setComplete() {
     Dom.removeClass(this.el, INPROGRESS_STYLE);
+    const el = Dom.selector(this.el);
+    if (el) {
+      Dom.removeClass(el.childNodes[0], this._mode);
+    }
   };
 
   /**
