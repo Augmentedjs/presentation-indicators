@@ -28,7 +28,7 @@ class ProgressIndicator extends View {
     } else {
       this._mode = INDICATOR_MODE_DEFAULT;
     }
-    this.template = `<div class=""></div>`;
+    this.template = /*html*/`<div class=""></div>`;
   };
 
   async render() {
