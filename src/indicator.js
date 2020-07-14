@@ -1,5 +1,5 @@
 import { View } from "presentation-view";
-import Dom from "presentation-dom";
+import { Dom } from "presentation-dom";
 import { INDICATOR_MODE_INDETERMINATE, INDICATOR_MODE_DETERMINATE, INDICATOR_MODE_DEFAULT } from "./modes.js";
 
 const INPROGRESS_STYLE = "inprogress";
