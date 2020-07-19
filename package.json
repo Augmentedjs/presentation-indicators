@@ -1,6 +1,6 @@
 {
   "name": "presentation-indicators",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "The Augmented.js Next - Presentation Indicators Module.",
   "main": "dist/presentation-indicators.js",
   "scripts": {
@@ -26,9 +26,9 @@
   "author": "Bob Warren <jedi.master@augmentedjs.com> (http://www.augmentedjs.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.10.4",
+    "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
+    "@babel/register": "^7.10.5",
     "babel-loader": "^8.1.0",
     "babel-plugin-remove-template-literals-whitespace": "^1.0.3",
     "chai": "^4.2.0",
@@ -42,8 +42,8 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "presentation-dom": "^3.0.0",
-    "presentation-view": "^3.0.0"
+    "presentation-dom": "^3.0.3",
+    "presentation-view": "^3.0.2"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-indicators/issues"
